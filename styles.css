@@ -1,0 +1,55 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: url('truth.jpeg') no-repeat center center fixed; /* Image background */
+    background-size: cover;
+}
+
+.container {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    margin: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transition: transform 0.2s;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+#yesButton {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#noButton {
+    background-color: #f44336;
+    color: white;
+    position: absolute;
+}
+
+.hidden {
+    display: none;
+}
+
+#message {
+    position: absolute;
+    top: 40%;
+    text-align: center;
+    font-size: 24px;
+    color: red; /* Changed text color to red */
+}
